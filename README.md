@@ -1,8 +1,4 @@
-**David Moore, PhD Student** <img align="right" width="166" height="222" src="/assets/IMG/profile_pic.jpg" alt="your-image-description" style="border: 5px solid  Black;">
-
-**Atmospheric and Oceanic Sciences, University of California, Los Angeles**
-
-**Main**: https://davidm-source.github.io/
+<img align="right" width="166" height="222" src="/assets/IMG/profile_pic.jpg" alt="your-image-description" style="border: 5px solid  Black;">
 
 <ins> Introduction </ins>
 
