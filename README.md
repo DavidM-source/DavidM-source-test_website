@@ -1,68 +1,49 @@
-**Hi class, welcome to the AOS C111/204 final project!** <img align="right" width="220" height="220" src="/assets/IMG/template_logo.png">
+**David Moore, PhD Student** <img align="right" width="166" height="222" src="/assets/IMG/profile_pic.jpg" alt="your-image-description" style="border: 5px solid  Black;">
 
-For this project, you will be applying your skills to train a machine learning model using real-world data, then publishing a report on your own website.
+**Atmospheric and Oceanic Sciences, University of California, Los Angeles**
 
-* To get data for your project, you could:
-  * use **your own data** from a separate research activity
-  * **scour the internet** to find something original, then preprocess it yourself - see the Module Overview on BruinLearn for some resources
-  * browse an archive of data designed for machine learning problems, such as the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/datasets)
+**Main**: https://davidm-source.github.io/
 
-* Your report should be in the region of 2000-2500 words with three to four figures, and written in a scientific language and style. [This template page](/project.md) gives an example structure that you could use, but feel free to make it your own.
+<ins> Introduction </ins>
 
-Your website will be a great addition to your CV, and a place to host future projects too since it doubles as a GitHub repository. The first step is to set up a project website like this one by following the instructions below. 
 
-## How does this website work?
+Hello, My name is David Moore. I am a third-year PhD student in the Atmospheric and Oceanic Sciences department at UCLA. With the support of Dr. Jonathan Mitchell, my current research focuses on understanding the dynamical and thermodynamical processes that dictate tropical cyclone favorability outside of Earth-like environments. To achieve this, I primarily use a combination of general circulation models (GCM's) and cloud-resolving models (CRM's) to mimic the desired environment. 
 
-First, check out the Github repository for this site: [https://github.com/atmosalex/atmosalex.github.io/](https://github.com/atmosalex/atmosalex.github.io/).
+<ins> Education </ins>
 
-Using GitHub pages, you can write a website using markdown syntax - the same syntax we use to write comments in Google Colab notebooks. GitHub pages then takes the markdown file and renders it as a web page using a Jekyll theme. The markdown source code for this page [is shown here](https://github.com/atmosalex/atmosalex.github.io/blob/main/README.md?plain=1).
 
-## Setting up your Project Website
+- Sep 2016 - May 2018 - Nassau Community College, Liberal Arts - Math & Science
+- Sep 2018 - May 2021 - BS - Atmospheric Science, University at Albany, State University of New York
+- Sep 2021 - Present - PhD Student - Atmospheric Science, University of California. Los Angeles
 
-### How to copy this site as a template
-1. Create [a GitHub account](https://github.com/)
-2.	Create a new GitHub repository with the name **username.github.io**, where **username** is your GitHub username as shown below. Select *public* and do not tick *Add a README file*. [![screenshot][1]][1]
-3.	From your new repository, you should see a *Quick setup* guide. Scroll down to the bottom of the page and click *Import code*, as shown: [![screenshot][2]][2]
-4.	In the box that says *Your old repository’s clone URL*, copy and paste this URL: `https://github.com/atmosalex/atmosalex.github.io/`, then proceed.
-5.	Go to the *Settings* tab, then click *Pages* (under *Code and automation*), and check that the *Build and deployment* section looks like this: [![screenshot][3]][3]
-6.	If you can see the *Actions* tab, click it and check that the build and deployment action has finished. Once it has, navigate to **[username].github.io** to see your site, which should be a copy of this one! If you cannot see an *Actions* tab, just wait a few minutes then go to your URL to check it is live.
+<ins> Projects </ins>
 
-Now you are ready to customize your site! To add your name to the site, go to your Github page, edit `_config.yml`, and replace the temporary title with your name.
+<ins> **Current** </ins>
+- AOS C111/C204 Final Project: [Fall 2023 Project](/project.md)
+- Understanding the favorability of tropical cyclogenesis between Earth-like and Titan-like regimes
+- Evaluating the climatology of MPI for dry and wet boundary layers
 
-[1]: /assets/IMG/instr_create.png
-[2]: /assets/IMG/instr_import.png
-[3]: /assets/IMG/instr_bd.png
+<ins> **Past** </ins>
+- COVID-19 Impact on Aerosol Concentrations on Urban Areas (NASA SARP)
+- Reevaluting trend of Large Hail Environments within the United States
 
-### How to change the theme (optional)
-1.	You can choose any theme [listed on this page](https://pages.github.com/themes/), though some do not work as well on mobile devices.
-2.	From GitHub, edit `_config.yml` and replace the `theme:` line with `theme: jekyll-theme-name` where `name` is the name of the theme from the above list. **For the `minima` theme, use a shortened preface like so `theme: minima`**, the others seem to need the whole preface `theme: jekyll-theme-`. You can check the *Actions* tab (as in step 6. above) to make sure the site is building successfully.
+<ins> Posters and Presentations </ins>
 
-### How to change your site logo (optional)
-1. Some themes, such as `jekyll-theme-minimal`, show a logo. In your repository, upload a logo or profile picture to the `assets/IMG/` directory
-2. Open `_config.yml` and modify the line `logo: /assets/IMG/template_logo.png` to point to your new image
+- "COVID-19 Impact on Aerosol Concentrations on Urban Areas", NROW XXI (Northeast Regional Operational Workshop, Fall 2020)
+- "Assessing the favorability of tropical cyclogenesis between Earth-like and Titan-like regimes" (CalGFD 2023)
+- "Assessing the favorability of tropical cyclogenesis between Earth-like and Titan-like regimes" (AGU 2023)
 
-***
+<ins> Publications </ins>
 
-## Guide to Adding Content
-* Your repository's `README.md` file (the file you are reading now) acts like a home page. Replace its contents with whatever you want the world to see by editing the file on GitHub.
-* If you want to turn this page into a CV or blog, etc., it may be useful to refer to a [guide for writing Markdown](https://www.markdownguide.org/basic-syntax/).
-* You can create other markdown files (.md) in your repository and navigate to them from this page using links, i.e.: [here is a link to another file, `project.md`](project.md)
-* When editing a markdown file on GitHub, it is useful to wrap text by selecting the *Soft wrap* option as shown: ![screenshot](/assets/IMG/instr_wrap.png)
-* If you want to get even more technical, you can also write HTML in your .md files, and GitHub Pages will render it. For example, the image below is displayed by writing the following (edit this file to see!): `<img align="right" width="200" height="200" src="/assets/IMG/template_frog.png">`
-<img align="right" width="337" height="200" src="/assets/IMG/template_frog.png"> 
+- Jarnot, A. et al. [Moore, David. 22nd of 53 authors] 2020 "A Comparison of Trace Gas Trends in Urban Areas Collected
+via Whole Air Sampling during the COVID-19 Pandemic" American Geophysical Union Fall Meeting, Abstract # A095-
+0001
+- Yang, M.M. et al. [Moore, David 28th of 53 authors], 2020 "NASA Student Airborne Research Program (SARP) Whole
+Air Sampling across the United States during the COVID-19 Pandemic" American Geophysical Union Fall Meeting,
+Abstract # A025-07
 
-***
+<ins> Honors and Awards </ins>
 
-## Delivering your Project
-
-Your final project is delivered in two components: a report and your code.
-
-### Report
-
-Your report should be **delivered via your website**. Submit a link to your website on BruinLearn so that your instructor can browse it to find your report. 
-
-To make this simple, you can write the report using a word processor or Latex, then export it as a .pdf file and upload it to the `assets` directory. You can then link to it [like so](/assets/project_demo.pdf). However, you can also type the report directly onto the website using another markdown page - [here is](/project.md) a template for that.
-
-### Code
-
-A link to your code must be submitted on BruinLearn, and the course instructor must be able to download your code to mark it. The code could be in a Google Colab notebook (make sure to *share* the notebook so access is set to **Anyone with the link**), or you could upload the code into a separate GitHub repository, or you could upload the code into the `assets` directory of your website and link to it. 
+- NASA SARP Recipient (Summer 2020)
+- UAlbany's Spellman Academic Achievement Award (Spring 2020, Spring 2021)
+- UCLA Cota-Robles Fellowship (Fall 2021)
