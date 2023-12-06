@@ -1,10 +1,11 @@
 ## My Project
 
-I applied machine learning techniques to investigate... Below is my report.
+For my AOS C204 final class project, I applied machine learning regression techniques to investigate which features (or attributes) are important to properly predict the upper-limit of tropical cyclone wind speeds within a Titan-like GCM simulation. The following information below contains my report. 
 
 ***
 
 ## Introduction 
+**Tropical cyclones are one of the hallmarks of Earth's tropical environment. Defined as warm-core, cyclonic storms, this type of atmospheric phenomena form in environments that are warm, moisture-rich, convectively active, and sufficient in terms of absolute vorticity. A prime example of these conditions being present is along the ITCZ during early summer to late fall. 
 
 Here is a summary description of the topic. Here is the problem. This is why the problem is important.
 
