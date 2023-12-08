@@ -1,6 +1,6 @@
 ## Evaluating the relationship between environmental variables and MPI using feature ranking and machine learning regression techniques
 
- We applied an random forest regression model with feature ranking to understand the relationship between the model diagnostics and MPI within a Titan-like GCM simulation. Results show that the effect of dissipative heating played a higher role in predicting MPI compared to the disequilibrium at the air-sea interface.
+ We applied an random forest regression model with feature ranking to understand the relationship between the model diagnostics and MPI within a Titan-like GCM simulation. Results show that the effect of tropical cyclone efficiency played a higher role in predicting MPI compared to the disequilibrium at the air-sea interface.
 ***
 
 ## 1. Introduction 
