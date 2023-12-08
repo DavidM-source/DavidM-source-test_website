@@ -7,8 +7,10 @@
 
 The presence, intensification, and decay of a tropical cyclone has always been associated as an Earth-like phenomena due to the warm and moist atmosphere that exists within the tropics. Defined as a warm core, cyclonic system, tropical cyclones are characterized by strong surface winds, spiral rainbands, and a clear, centralized eye. Outside of its appearance, the conditions needed for tropical cyclogenesis are shown in Table 1 [1].
 
-<img align="right" width="305" height="284" src="/assets/IMG/table.PNG">
-Table 1. Six necessary conditions needed for tropical cyclone formation.
+![Table](/assets/IMG/table.PNG)
+
+*Table 1. Six necessary conditions needed 
+for tropical cyclone formation.*
 
 The first three conditions provide the ingredients for deep convection, the latter affects the daily occurrence of tropical cyclones. Once conditions are met, the path of tropical cyclones are governed by the mean flow of the atmosphere, typically in a west-northwestward direction. Thus, tropical cyclones are highly present in each hemisphere during the summer and fall months.
 
@@ -23,6 +25,9 @@ To address this issue head-on, we will use feature ranking by way of machine lea
 
 To understand the relationship between MPI and its associated environmental variables on Titan, I will be looking at a total of 50 days during the southern hemisphere summer from the Titan Atmospheric Model (TAM), a three-dimensional GCM that has the ability to simulate Titan-like planetary and environmental characteristics, such as the solar constant, orbital period, planetary radius, a methane-rich atmosphere, and methane as the main condensable [3]. One of the model diagnostic, surface temperature, is plotted in Figure 1. The model is fitted with a full physics suite, including a quasi-equilibrium moist convection scheme, large-scale condensation scheme, non-grey radiation scheme, and a surface model with a bucket hydrology scheme [3]. The model resolution is 64x128, with 25 pressure levels in the vertical. For training and testing purposes, we have to preprocess the data because the model output is spatial and temporal in nature, with dimensions in latitude, longitude, and time, which can be seen in the data frame in Figure 3. 
 
+![sur_temp](/assets/IMG/sur_temp.jpg)
+
+*Figure 1. Surface temperature (K) of the Titan Atmospheric model (TAM).*
 
 Since most regression models are compatible with two-dimensional arrays, we must change the shape of the dimensions for each feature that is needed. To do so, we first need to reconfigure the data into Pandas dataframes, which can be shown in code below. Outside of MPI as a target variable, a total of ten features will be used to train the model.
 
@@ -88,16 +93,24 @@ grid_search = GridSearchCV(rfr_model,param,cv=5,scoring='neg_root_mean_squared_e
 
 Figure 2 shows gridded data of MPI for the first test case. MPI is measured in m/s.
 
+![mpi_test](/assets/IMG/mpi_test0.jpg)
+
+
 
 Figure 3 shows gridded data for MPI for the first predicted case (random forest regression). MPI is measured in m/s.
+
+![mpi_pred](/assets/IMG/mpi_pred0.jpg)
 
 
 Figure 4 shows the difference between the test and predicted cases in gridded format. 
 
+![mpi_diff](/assets/IMG/mpi_diff0.jpg)
+
 
 Figure 5 shows feature ranking for the random forest regression model. The x-axis show feature importance. The y-axis show the individual features used in training and testing.
 
-{}
+![fr_rfr](/assets/IMG/FR_RNR.PNG)
+
 
 ## Discussion
 
