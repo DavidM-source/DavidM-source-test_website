@@ -77,7 +77,13 @@ from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(X_data_days, Y_data_days, test_size=0.2, shuffle=False)
 ```
 
-After splitting the dataset, we scaled each feature and the target variable due to the different ranges of values. Afterwards, we fitted and evaluated the model using a performance measure called root-mean squared error, as shown by Equation (2), which calculates the average difference between the actual and predicted value by the model. The main goal behind RMSE is to get the difference between actual and predicted values close to zero as possible.  The RMSE scores for each model is the following:
+After splitting the dataset, we scaled each feature and the target variable due to the different ranges of values. Afterwards, we fitted and evaluated the model using a performance measure called root-mean squared error, as shown by Equation (2), which calculates the average difference between the actual and predicted value by the model. The main goal behind RMSE is to get the difference between actual and predicted values close to zero as possible. 
+
+![rmse](/assets/IMG/rmse_equation.png)
+
+*Equation 2. Root-mean squared error.*
+
+The RMSE scores for each model is the following:
 
 ```
 RMSE for linear regression with ridge regularization: 0.106
