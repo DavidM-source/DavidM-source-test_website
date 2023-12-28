@@ -10,9 +10,9 @@ Hello, My name is David Moore. I am a third-year PhD student in the Atmospheric 
 <ins> Education </ins>
 
 
-- Sep 2016 - May 2018 - Nassau Community College, Liberal Arts - Math & Science
-- Sep 2018 - May 2021 - BS - Atmospheric Science, University at Albany, State University of New York
-- Sep 2021 - Present - PhD Student - Atmospheric Science, University of California. Los Angeles
+- Sep 2016 - May 2018: Nassau Community College, Liberal Arts - Math & Science
+- Sep 2018 - May 2021: BS - Atmospheric Science, University at Albany, State University of New York
+- Sep 2021 - Present: PhD Student - Atmospheric Science, University of California. Los Angeles
 
 <ins> Projects </ins>
 
