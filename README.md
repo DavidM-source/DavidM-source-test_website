@@ -16,12 +16,12 @@ Hello, My name is David Moore. I am a third-year PhD student in the Atmospheric 
 
 <ins> **Projects** </ins>
 
-<ins> Current </ins>
+Current
 - AOS C111/C204 Final Project: [Fall 2023 Project](/project.md)
 - Understanding the favorability of tropical cyclogenesis between Earth-like and Titan-like regimes
 - Evaluating the climatology of MPI for dry and wet boundary layers
 
-<ins> Past </ins>
+Past
 - COVID-19 Impact on Aerosol Concentrations on Urban Areas (NASA SARP)
 - Reevaluting trend of Large Hail Environments within the United States
 
